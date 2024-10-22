@@ -2,15 +2,12 @@
 <html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Jon Barron</title>
-
+    <title>Yida Yin</title>
     <meta name="author" content="Yida Yin/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     
   </head>
-
   <body>
     <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;line-height:1.6"><tbody>
       <tr style="padding:0px">
@@ -18,13 +15,16 @@
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr style="padding:0px">
               <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  Yida(David) Yin
-                </p>
-                <p style="line-height:1.6"> I am a third year undergraduate at UC Berkeley, majoring in Computer Science and Applied Mathematics.
+                <div style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+                  <p class="name" style="text-align: center; margin: 0;">
+                    Yida Yin 
+                  </p>
+                  <img src="images/chinese_name.jpg" alt="Yida Yin" style="object-fit: cover; border-radius: 50%;">
+                </div>
+                <p style="line-height:1.6"> I am a fourth year undergraduate at UC Berkeley, majoring in Computer Science and Applied Mathematics. I go by David.
                 </p>
                 <p style="line-height:1.6">
-                  I am currently working with <a href="https://roeiherz.github.io/">Dr. Roei Herzig</a> and Professor <a href="https://people.eecs.berkeley.edu/~trevor/">Trevor Darrell</a> at the <a href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research (BAIR)</a> on vision robotics. I am also doing research with Dr. <a href="https://liuzhuang13.github.io/">Zhuang Liu</a> at <a href="https://ai.meta.com/research/">Meta AI Research</a> on computer vision.
+                  I am currently working with Dr. <a href="https://roeiherz.github.io/">Roei Herzig</a> and Professor <a href="https://people.eecs.berkeley.edu/~trevor/">Trevor Darrell</a> at the <a href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research (BAIR)</a> on vision robotics. I am also doing research with Professor <a href="https://liuzhuang13.github.io/">Zhuang Liu</a> at <a href="https://ai.meta.com/research/">Meta AI Research</a> on computer vision. I have previously worked with Dr. <a href="https://www.linkedin.com/in/zhuo-xu-joe">Zhuo Xu</a> and Professor <a href="https://jiachenli94.github.io/">Jiacheng Li</a> on autonomous driving.
                 </p>
                 <p style="text-align:center">
                   <a href="davidyinyida0609@gmail.com">Email</a> &nbsp;/&nbsp;
@@ -39,8 +39,27 @@
             </tr>
           </tbody></table>
 
-          <h2>Research</h2>
+          <h2>Publications <span style="font-size: 0.75em; font-weight: normal;">(* equal contribution)</span></h2>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr></tr>
+              <td style="padding:20px;width:50%;vertical-align:middle">
+                  <img src='images/roboprompt.png' width="350">
+              </td>
+            <td style="padding:20px;width:50%;vertical-align:middle">
+              <h3 style="margin-bottom: 0;">In-Context Learning Enables Robot Action Prediction in LLMs</h3>
+            <strong>Yida Yin*</strong>,
+            <a href="https://zekaiwang04.github.io">Zekai Wang*</a>,
+            <a href="https://scholar.google.com/citations?hl=en&user=1_IIcds8es4C">Yuvan Sharma</a>,
+            <a href="https://scholar.google.com/citations?user=AzlUrvUAAAAJ&hl=en">Dantong Niu</a>,
+            <a href="https://people.eecs.berkeley.edu/~trevor/">Trevor Darrell</a>,
+            <a href="https://roeiherz.github.io/">Roei Herzig</a>
+            <br>
+            <em>arXiv</em> 2024
+            <br>
+            <a href="https://arxiv.org/abs/2410.12782">[paper]</a> <a href="https://github.com/davidyyd/roboprompt"> [code] </a>
+
+          </td>
+            
             <tr>
               <td style="padding:20px;width:50%;vertical-align:middle">
                   <img src='images/alpha-SVRG.png' width="350">
@@ -53,9 +72,62 @@
             <a href="https://people.eecs.berkeley.edu/~trevor/">Trevor Darrell</a>,
             <a href="https://liuzhuang13.github.io/">Zhuang Liu</a>
             <br>
-            <i> arXiv 2023</i>
+            <em>ICLR workshop</em> 2024
             <br>
             <a href="https://arxiv.org/abs/2311.05589">[paper]</a> <a href="https://github.com/davidyyd/alpha-SVRG"> [code] </a>
+
           </td>
+
+
+            <tr>
+              <td style="padding:20px;width:50%;vertical-align:middle">
+                  <img src='images/weight_selection.png' width="320">
+              </td>
+                
+              <td style="padding:20px;width:50%;vertical-align:middle">
+                <h3 style="margin-bottom: 0;">Initializing Models with Larger Ones</h3>
+            <a href="https://oscarxzq.github.io/">Zhiqiu Xu</a>,
+            Yanjie Chen,
+            <a href="https://kirill-vishniakov.github.io/">Kirill Vishniakov</a>,
+            <strong>Yida Yin</strong>,
+            <a href="https://zhiqiangshen.com/">Zhiqiang Shen</a>,
+            <a href="https://people.eecs.berkeley.edu/~trevor/">Trevor Darrell</a>,
+            <a href="http://lingjie0206.github.io">Lingjie Liu</a>,
+            <a href="http://liuzhuang13.github.io">Zhuang Liu</a>
+            <br>
+            <em>ICLR</em> 2024 <font color="red"><strong><i></i>(Spotlight)</strong></font>
+            <br>
+            <a href="https://arxiv.org/abs/2311.18823">[paper]</a> <a href="https://github.com/OscarXZQ/weight-selection"> [code] </a>
+
+          <tr>
+            <td style="padding:20px;width:50%;vertical-align:middle">
+                <img src='images/MATRIX.jpg' width="350">
+            </td>
+          <td style="padding:20px;width:50%;vertical-align:middle">
+            <h3 style="margin-bottom: 0;">MATRIX: Multi-Agent Trajectory Generation with Diverse Contexts</h3>
+          <a href="https://www.linkedin.com/in/zhuo-xu-joe">Zhuo Xu*</a>,
+          <a href="https://www.linkedin.com/in/rui-zhou-zr/">Rui Zhou*</a>,
+          <strong>Yida Yin*</strong>,
+          Huidong Gao,
+          <a href="https://me.berkeley.edu/people/masayoshi-tomizuka/">Masayoshi Tomizuka</a>,
+          <a href="https://jiachenli94.github.io/">Jiacheng Li</a>
+          <br>
+          <i> ICRA 2024</i>
+          <br>
+          <a href="https://arxiv.org/abs/2403.06041">[paper]</a>
+
+        </td>
+
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-left:auto;bottom:0;right:0"><tbody>
+            <tr>
+              <td style="padding:0px">
+                <br>
+                <p style="text-align:right;font-size:small;">
+                  Website design from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a>
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
   </body>
 </html>
